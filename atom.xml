@@ -6,7 +6,7 @@
   <link href="http://fanhaibo.com/atom.xml" rel="self"/>
   
   <link href="http://fanhaibo.com/"/>
-  <updated>2020-12-05T08:45:55.498Z</updated>
+  <updated>2020-12-06T04:36:34.263Z</updated>
   <id>http://fanhaibo.com/</id>
   
   <author>
@@ -17,80 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>建立完整hexo文章模板</title>
-    <link href="http://fanhaibo.com/2020/12/05/jian-li-wan-zheng-hexo-wen-zhang-mo-ban/"/>
-    <id>http://fanhaibo.com/2020/12/05/jian-li-wan-zheng-hexo-wen-zhang-mo-ban/</id>
-    <published>2020-12-05T07:28:28.000Z</published>
-    <updated>2020-12-05T08:45:55.498Z</updated>
+    <title>博客使用的图床</title>
+    <link href="http://fanhaibo.com/2020/12/06/wang-zhan-shi-yong-de-tu-chuang/"/>
+    <id>http://fanhaibo.com/2020/12/06/wang-zhan-shi-yong-de-tu-chuang/</id>
+    <published>2020-12-06T04:20:54.000Z</published>
+    <updated>2020-12-06T04:36:34.263Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="‘’’"><a href="#‘’’" class="headerlink" title="‘’’"></a>‘’’</h2><p>title: typora-vue-theme主题介绍<br>date: 2018-09-07 09:25:00<br>author: 赵奇<br>img: /source/images/xxx.jpg<br>top: true<br>cover: true<br>coverImg: /images/1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: Markdown<br>tags:</p><ul><li>Typora</li><li>Markdown</li></ul><hr><p>‘’’</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;‘’’&quot;&gt;&lt;a href=&quot;#‘’’&quot; class=&quot;headerlink&quot; title=&quot;‘’’&quot;&gt;&lt;/a&gt;‘’’&lt;/h2&gt;&lt;p&gt;title: typora-vue-theme主题介绍&lt;br&gt;date: 2018-09-07 09:25:00&lt;br&gt;author</summary>
-      
-    
-    
-    
-    <category term="hexo" scheme="http://fanhaibo.com/categories/hexo/"/>
-    
-    
-    <category term="文章" scheme="http://fanhaibo.com/tags/%E6%96%87%E7%AB%A0/"/>
-    
-    <category term="模板" scheme="http://fanhaibo.com/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="hexo" scheme="http://fanhaibo.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://fanhaibo.com/2020/12/02/test/"/>
-    <id>http://fanhaibo.com/2020/12/02/test/</id>
-    <published>2020-12-02T10:24:59.000Z</published>
-    <updated>2020-12-05T08:43:32.090Z</updated>
-    
-    <content type="html"><![CDATA[<p>特性<br>简单漂亮，文章内容美观易读<br>Material Design 设计<br>响应式设计，博客在桌面端、平板、手机等设备上均能很好的展现<br>首页轮播文章及每天动态切换 Banner 图片<br>瀑布流式的博客文章列表（文章无特色图片时会有 24 张漂亮的图片代替）<br>时间轴式的归档页<br>词云的标签页和雷达图的分类页<br>丰富的关于我页面（包括关于我、文章统计图、我的项目、我的技能、相册等）<br>可自定义的数据的友情链接页面<br>支持文章置顶和文章打赏<br>支持 MathJax<br>TOC 目录<br>可设置复制文章内容时追加版权信息<br>可设置阅读文章时做密码验证<br>Gitalk、Gitment、Valine 和 Disqus 评论模块（推荐使用 Gitalk）<br>集成了不蒜子统计、谷歌分析（Google Analytics）和文章字数统计等功能<br>支持在首页的音乐播放和视频播放功能<br>下载<br>当你看到这里的时候，应该已经有一个自己的 Hexo 博客了。如果还没有的话，不妨使用 Hexo 和 Markdown 来写博客和文章。</p><p>点击 这里 下载 master 分支的最新稳定版的代码，解压缩后，将 hexo-theme-matery 的文件夹复制到你 Hexo 的 themes 文件夹中即可。</p><p>当然你也可以在你的 themes 文件夹下使用 Git clone 命令来下载:</p><p>bash<br>git clone <a href="https://github.com/blinkfox/hexo-theme-matery.git">https://github.com/blinkfox/hexo-theme-matery.git</a><br>配置<br>切换主题<br>修改 Hexo 根目录下的 _config.yml 的 theme 的值：theme: hexo-theme-matery</p><p>_config.yml 文件的其它修改建议:<br>请修改 _config.yml 的 url 的值为你的网站主 URL（如：<a href="http://xxx.github.io)./">http://xxx.github.io）。</a><br>建议修改两个 per_page 的分页条数值为 6 的倍数，如：12、18 等，这样文章列表在各个屏幕下都能较好的显示。<br>如果你是中文用户，则建议修改 language 的值为 zh-CN。<br>新建分类 categories 页<br>categories 页是用来展示所有分类的页面，如果在你的博客 source 目录下还没有 categories/index.md 文件，那么你就需要新建一个，命令如下：</p><p>bash<br>hexo new page “categories”<br>编辑你刚刚新建的页面文件 /source/categories/index.md，至少需要以下内容：</p><h2 id="yaml"><a href="#yaml" class="headerlink" title="yaml"></a>yaml</h2><p>title: categories<br>date: 2018-09-30 17:25:30<br>type: “categories”<br>layout: “categories”</p><hr><p>新建标签 tags 页<br>tags 页是用来展示所有标签的页面，如果在你的博客 source 目录下还没有 tags/index.md 文件，那么你就需要新建一个，命令如下：</p><p>bash<br>hexo new page “tags”<br>编辑你刚刚新建的页面文件 /source/tags/index.md，至少需要以下内容：</p><h2 id="yaml-1"><a href="#yaml-1" class="headerlink" title="yaml"></a>yaml</h2><p>title: tags<br>date: 2018-09-30 18:23:38<br>type: “tags”<br>layout: “tags”</p><hr><p>新建关于我 about 页<br>about 页是用来展示关于我和我的博客信息的页面，如果在你的博客 source 目录下还没有 about/index.md 文件，那么你就需要新建一个，命令如下：</p><p>bash<br>hexo new page “about”<br>编辑你刚刚新建的页面文件 /source/about/index.md，至少需要以下内容：</p><h2 id="yaml-2"><a href="#yaml-2" class="headerlink" title="yaml"></a>yaml</h2><p>title: about<br>date: 2018-09-30 17:25:30<br>type: “about”<br>layout: “about”</p><hr><p>新建友情连接 friends 页（可选的）<br>friends 页是用来展示友情连接信息的页面，如果在你的博客 source 目录下还没有 friends/index.md 文件，那么你就需要新建一个，命令如下：</p><p>bash<br>hexo new page “friends”<br>编辑你刚刚新建的页面文件 /source/friends/index.md，至少需要以下内容：</p><h2 id="yaml-3"><a href="#yaml-3" class="headerlink" title="yaml"></a>yaml</h2><p>title: friends<br>date: 2018-12-12 21:25:30<br>type: “friends”<br>layout: “friends”</p><hr><p>同时，在你的博客 source 目录下新建 _data 目录，在 _data 目录中新建 friends.json 文件，文件内容如下所示：</p><p>json<br>[{<br>    “avatar”: “<a href="http://image.luokangyuan.com/1_qq_27922023.jpg&quot;">http://image.luokangyuan.com/1_qq_27922023.jpg&quot;</a>,<br>    “name”: “码酱”,<br>    “introduction”: “我不是大佬，只是在追寻大佬的脚步”,<br>    “url”: “<a href="http://luokangyuan.com/&quot;">http://luokangyuan.com/&quot;</a>,<br>    “title”: “前去学习”<br>}, {<br>    “avatar”: “<a href="http://image.luokangyuan.com/4027734.jpeg&quot;">http://image.luokangyuan.com/4027734.jpeg&quot;</a>,<br>    “name”: “闪烁之狐”,<br>    “introduction”: “编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬”,<br>    “url”: “<a href="https://blinkfox.github.io/&quot;">https://blinkfox.github.io/&quot;</a>,<br>    “title”: “前去学习”<br>}, {<br>    “avatar”: “<a href="http://image.luokangyuan.com/avatar.jpg&quot;">http://image.luokangyuan.com/avatar.jpg&quot;</a>,<br>    “name”: “ja_rome”,<br>    “introduction”: “平凡的脚步也可以走出伟大的行程”,<br>    “url”: “ttps://me.csdn.net/jlh912008548”,<br>    “title”: “前去学习”<br>}]<br>代码高亮<br>由于 Hexo 自带的代码高亮主题显示不好看，所以主题中使用到了 hexo-prism-plugin 的 Hexo 插件来做代码高亮，安装命令如下：</p><p>bash<br>npm i -S hexo-prism-plugin<br>然后，修改 Hexo 根目录下 _config.yml 文件中 highlight.enable 的值为 false，并新增 prism 插件相关的配置，主要配置如下：</p><p>yaml<br>highlight:<br>  enable: false</p><p>prism_plugin:<br>  mode: ‘preprocess’    # realtime/preprocess<br>  theme: ‘tomorrow’<br>  line_number: false    # default false<br>  custom_css:<br>搜索<br>本主题中还使用到了 hexo-generator-search 的 Hexo 插件来做内容搜索，安装命令如下：</p><p>bash<br>npm install hexo-generator-search –save<br>在 Hexo 根目录下的 _config.yml 文件中，新增以下的配置项：</p><p>yaml<br>search:<br>  path: search.xml<br>  field: post<br>中文链接转拼音（可选的）<br>如果你的文章名称是中文的，那么 Hexo 默认生成的永久链接也会有中文，这样不利于 SEO，且 gitment 评论对中文链接也不支持。我们可以用 hexo-permalink-pinyin Hexo 插件使在生成文章时生成中文拼音的永久链接。</p><p>安装命令如下：</p><p>bash<br>npm i hexo-permalink-pinyin –save<br>在 Hexo 根目录下的 _config.yml 文件中，新增以下的配置项：</p><p>yaml<br>permalink_pinyin:<br>  enable: true<br>  separator: ‘-‘ # default: ‘-‘<br>注：除了此插件外，hexo-abbrlink 插件也可以生成非中文的链接。</p><p>文章字数统计插件（可选的）<br>如果你想要在文章中显示文章字数、阅读时长信息，可以安装 hexo-wordcount插件。</p><p>安装命令如下：</p><p>bash<br>npm i –save hexo-wordcount<br>然后只需在本主题下的 _config.yml 文件中，激活以下配置项即可：</p><p>yaml<br>wordCount:<br>  enable: false # 将这个值设置为 true 即可.<br>  postWordCount: true<br>  min2read: true<br>  totalCount: true<br>添加 RSS 订阅支持（可选的）<br>本主题中还使用到了 hexo-generator-feed 的 Hexo 插件来做 RSS，安装命令如下：</p><p>bash<br>npm install hexo-generator-feed –save<br>在 Hexo 根目录下的 _config.yml 文件中，新增以下的配置项：</p><p>yaml<br>feed:<br>  type: atom<br>  path: atom.xml<br>  limit: 20<br>  hub:<br>  content:<br>  content_limit: 140<br>  content_limit_delim: ‘ ‘<br>  order_by: -date<br>执行 hexo clean &amp;&amp; hexo g 重新生成博客文件，然后在 public 文件夹中即可看到 atom.xml 文件，说明你已经安装成功了。</p><p>修改页脚<br>页脚信息可能需要做定制化修改，而且它不便于做成配置信息，所以可能需要你自己去再修改和加工。修改的地方在主题文件的 /layout/_partial/footer.ejs 文件中，包括站点、使用的主题、访问量等。</p><p>修改社交链接<br>在主题的 _config.yml 文件中，默认支持 QQ、GitHub 和邮箱的配置，你可以在主题文件的 /layout/_partial/social-link.ejs 文件中，新增、修改你需要的社交链接地址，增加链接可参考如下代码：</p><p>html<br><a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50"><br>    <i class="fa fa-github"></i><br></a><br>其中，社交图标（如：fa-github）你可以在 Font Awesome 中搜索找到。以下是常用社交图标的标识，供你参考：</p><p>Facebook: fa-facebook<br>Twitter: fa-twitter<br>Google-plus: fa-google-plus<br>Linkedin: fa-linkedin<br>Tumblr: fa-tumblr<br>Medium: fa-medium<br>Slack: fa-slack<br>新浪微博: fa-weibo<br>微信: fa-wechat<br>QQ: fa-qq<br>注意: 本主题中使用的 Font Awesome 版本为 4.7.0。</p><p>修改打赏的二维码图片<br>在主题文件的 source/medias/reward 文件中，你可以替换成你的的微信和支付宝的打赏二维码图片。</p><p>配置音乐播放器（可选的）<br>要支持音乐播放，就必须开启音乐的播放配置和音乐数据的文件。</p><p>首先，在你的博客 source 目录下的 _data 目录（没有的话就新建一个）中新建 musics.json 文件，文件内容如下所示：</p><p>json<br>[{<br>    “name”: “五月雨变奏电音”,<br>    “artist”: “AnimeVibe”,<br>    “url”: “<a href="http://xxx.com/music1.mp3&quot;">http://xxx.com/music1.mp3&quot;</a>,<br>    “cover”: “<a href="http://xxx.com/music-cover1.png&quot;">http://xxx.com/music-cover1.png&quot;</a><br>}, {<br>    “name”: “Take me hand”,<br>    “artist”: “DAISHI DANCE,Cecile Corbel”,<br>    “url”: “/medias/music/music2.mp3”,<br>    “cover”: “/medias/music/cover2.png”<br>}, {<br>    “name”: “Shape of You”,<br>    “artist”: “J.Fla”,<br>    “url”: “<a href="http://xxx.com/music3.mp3&quot;">http://xxx.com/music3.mp3&quot;</a>,<br>    “cover”: “<a href="http://xxx.com/music-cover3.png&quot;">http://xxx.com/music-cover3.png&quot;</a><br>}]<br>注：以上 JSON 中的属性：name、artist、url、cover 分别表示音乐的名称、作者、音乐文件地址、音乐封面。</p><p>然后，在主题的 _config.yml 配置文件中激活配置即可：</p><p>yaml</p><h1 id="是否在首页显示音乐"><a href="#是否在首页显示音乐" class="headerlink" title="是否在首页显示音乐."></a>是否在首页显示音乐.</h1><p>music:<br>  enable: true<br>  showTitle: false<br>  title: 听听音乐<br>  fixed: false # 是否开启吸底模式<br>  autoplay: false # 是否自动播放<br>  theme: ‘#42b983’<br>  loop: ‘all’ # 音频循环播放, 可选值: ‘all’, ‘one’, ‘none’<br>  order: ‘list’ # 音频循环顺序, 可选值: ‘list’, ‘random’<br>  preload: ‘auto’ # 预加载，可选值: ‘none’, ‘metadata’, ‘auto’<br>  volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效<br>  listFolded: false # 列表默认折叠<br>  listMaxHeight: # 列表最大高度<br>文章 Front-matter 介绍<br>Front-matter 选项详解<br>Front-matter 选项中的所有内容均为非必填的。但我仍然建议至少填写 title 和 date 的值。</p><p>配置选项    默认值 描述<br>title   Markdown 的文件标题  文章标题，强烈建议填写此选项<br>date    文件创建时的日期时间  发布时间，强烈建议填写此选项，且最好保证全局唯一<br>author  根 _config.yml 中的 author 文章作者<br>img featureImages 中的某个值 文章特征图，推荐使用图床(腾讯云、七牛云、又拍云等)来做图片的路径.如: <a href="http://xxx.com/xxx.jpg">http://xxx.com/xxx.jpg</a><br>top true    推荐文章（文章是否置顶），如果 top 值为 true，则会作为首页推荐文章<br>cover   false   v1.0.2版本新增，表示该文章是否需要加入到首页轮播封面中<br>coverImg    无   v1.0.2版本新增，表示该文章在首页轮播封面需要显示的图片路径，如果没有，则默认使用文章的特色图片<br>password    无   文章阅读密码，如果要对文章设置阅读验证密码的话，就可以设置 password 的值，该值必须是用 SHA256 加密后的密码，防止被他人识破。前提是在主题的 config.yml 中激活了 verifyPassword 选项<br>toc true    是否开启 TOC，可以针对某篇文章单独关闭 TOC 的功能。前提是在主题的 config.yml 中激活了 toc 选项<br>mathjax false   是否开启数学公式支持 ，本文章是否开启 mathjax，且需要在主题的 _config.yml 文件中也需要开启才行<br>summary 无   文章摘要，自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories  无   文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类<br>tags    无   文章标签，一篇文章可以多个标签<br>注意:</p><p>如果 img 属性不填写的话，文章特色图会根据文章标题的 hashcode 的值取余，然后选取主题中对应的特色图片，从而达到让所有文章都的特色图各有特色。<br>date 的值尽量保证每篇文章是唯一的，因为本主题中 Gitalk 和 Gitment 识别 id 是通过 date 的值来作为唯一标识的。<br>如果要对文章设置阅读验证密码的功能，不仅要在 Front-matter 中设置采用了 SHA256 加密的 password 的值，还需要在主题的 _config.yml 中激活了配置。有些在线的 SHA256 加密的地址，可供你使用：开源中国在线工具、chahuo、站长工具。<br>以下为文章的 Front-matter 示例。</p><p>最简示例<br>yaml</p><hr><p>title: typora-vue-theme主题介绍<br>date: 2018-09-07 09:25:00</p><hr><p>最全示例<br>yaml</p><hr><p>title: typora-vue-theme主题介绍<br>date: 2018-09-07 09:25:00<br>author: 赵奇<br>img: /source/images/xxx.jpg<br>top: true<br>cover: true<br>coverImg: /images/1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: Markdown<br>tags:</p><ul><li>Typora</li><li>Markdown</li></ul><hr><p>效果截图<br>首页<br>首页</p><p>首页推荐文章<br>首页推荐文章</p><p>首页文章列表<br>首页文章列表</p><p>首页文章列表<br>首页文章列表</p><p>首页文章列表<br>首页文章列表</p><p>自定制修改<br>在本主题的 _config.yml 中可以修改部分自定义信息，有以下几个部分：</p><p>菜单<br>我的梦想<br>首页的音乐播放器和视频播放器配置<br>是否显示推荐文章名称和按钮配置<br>favicon 和 Logo<br>个人信息<br>TOC 目录<br>文章打赏信息<br>复制文章内容时追加版权信息<br>MathJax<br>文章字数统计、阅读时长<br>点击页面的’爱心’效果<br>我的项目<br>我的技能<br>我的相册<br>Gitalk、Gitment、Valine 和 disqus 评论配置<br>不蒜子统计和谷歌分析（Google Analytics）<br>默认特色图的集合。当文章没有设置特色图时，本主题会根据文章标题的 hashcode 值取余，来选择展示对应的特色图<br>我认为个人博客应该都有自己的风格和特色。如果本主题中的诸多功能和主题色彩你不满意，可以在主题中自定义修改，很多更自由的功能和细节点的修改难以在主题的 _config.yml 中完成，需要修改源代码才来完成。以下列出了可能对你有用的地方：</p><p>修改主题颜色<br>在主题文件的 /source/css/matery.css 文件中，搜索 .bg-color 来修改背景颜色：</p><p>css<br>/* 整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色. */<br>.bg-color {<br>    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);<br>}</p><p>@-webkit-keyframes rainbow {<br>   /* 动态切换背景颜色. */<br>}</p><p>@keyframes rainbow {<br>    /* 动态切换背景颜色. */<br>}<br>修改 banner 图和文章特色图<br>你可以直接在 /source/medias/banner 文件夹中更换你喜欢的 banner 图片，主题代码中是每天动态切换一张，只需 7 张即可。如果你会 JavaScript 代码，可以修改成你自己喜欢切换逻辑，如：随机切换等，banner 切换的代码位置在 /layout/_partial/bg-cover-content.ejs 文件的 <script></script> 代码中：</p><p>javascript<br>$(‘.bg-cover’).css(‘background-image’, ‘url(/medias/banner/‘ + new Date().getDay() + ‘.jpg)’);<br>在 /source/medias/featureimages 文件夹中默认有 24 张特色图片，你可以再增加或者减少，并需要在 _config.yml 做同步修改。</p><p>版本记录<br>v1.0.0<br>新增了所有基础功能；<br>v1.0.1<br>调整 css、js 的文件请求路径在主题的_config.yml中配置，便于你更快捷的配置自己的 CDN；<br>新增代码是否折行为可配置，默认为折行；<br>默认激活 TOC 功能，并新增为某篇文章关闭 TOC 的 Front-matter 配置选项；<br>修复文章滚动时，高亮的目录选项不准确的问题；<br>IOS下移除搜索框自动获得焦点属性，防止自动获得焦点后导致视图上移；<br>v1.0.2<br>升级了 Materialize 框架版本为1.0.0，重构和修改了升级过程中的部分文件或问题；<br>新增了首页封面的全屏轮播特效，可以将更重要的文章设置到首页轮播中；<br>修复首页第一个按钮是中文的问题<br>修复了 iPhone 上点击搜索输入获取焦点的问题；<br>修复了 iPhone 上输入框获取焦点后页面放大的问题；<br>修复一些文章或 UI 显示问题；</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Typora-PicGo-的设置步骤"><a href="#Typora-PicGo-的设置步骤" class="headerlink" title="Typora + PicGo 的设置步骤"></a>Typora + PicGo 的设置步骤</h1><h2 id="pivGo设置"><a href="#pivGo设置" class="headerlink" title="pivGo设置"></a>pivGo设置</h2><h2 id="激活PicGo-Server"><a href="#激活PicGo-Server" class="headerlink" title="激活PicGo-Server"></a>激活PicGo-Server</h2><p>​        2.2.0 版本之后，PicGo 内部会默认开启一个小型的服务器，用于配合其他应用来调用 PicGo 进行上传。</p><h4 id="如何设置呢？"><a href="#如何设置呢？" class="headerlink" title="如何设置呢？"></a>如何设置呢？</h4><p>​        打开 PicGo 详细页面，进入 PicGo 设置–设置Server</p><p>参考下图进行设置即可。</p><p><img src="https://i.loli.net/2020/12/06/Zce2dg9nDzXSAko.png" alt="img"></p><h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><p><strong>文件–偏好设置–图像</strong></p><p>参考图片中的进行配置。</p><p><img src="https://i.loli.net/2020/12/06/6rfbdBpL8E7I2WQ.png" alt="img"></p><p>选择本机 PicGo 的路径。</p><h2 id="验证图片上传"><a href="#验证图片上传" class="headerlink" title="验证图片上传"></a>验证图片上传</h2><p>这里还可以<strong>验证图片上传功能</strong>。</p><p>验证成功会返回下图结果：</p><p><img src="https://i.loli.net/2020/12/06/ZtrCnFPhMcp34SD.png" alt="▲ 验证上传"></p><h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><p>上面的设置完成后，在 Typora 里写字时，就可以自动上传图片到图床啦。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;特性&lt;br&gt;简单漂亮，文章内容美观易读&lt;br&gt;Material Design 设计&lt;br&gt;响应式设计，博客在桌面端、平板、手机等设备上均能很好的展现&lt;br&gt;首页轮播文章及每天动态切换 Banner 图片&lt;br&gt;瀑布流式的博客文章列表（文章无特色图片时会有 24 张漂亮的图片</summary>
+    <summary type="html">&lt;h1 id=&quot;Typora-PicGo-的设置步骤&quot;&gt;&lt;a href=&quot;#Typora-PicGo-的设置步骤&quot; class=&quot;headerlink&quot; title=&quot;Typora + PicGo 的设置步骤&quot;&gt;&lt;/a&gt;Typora + PicGo 的设置步骤&lt;/h1&gt;&lt;h2 i</summary>
       
     
     
     
-    <category term="test" scheme="http://fanhaibo.com/categories/test/"/>
+    <category term="博客技术文档" scheme="http://fanhaibo.com/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
     
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://fanhaibo.com/2020/12/02/hello-world/"/>
-    <id>http://fanhaibo.com/2020/12/02/hello-world/</id>
-    <published>2020-12-02T01:25:40.688Z</published>
-    <updated>2020-12-05T08:43:26.875Z</updated>
+    <category term="图片" scheme="http://fanhaibo.com/tags/%E5%9B%BE%E7%89%87/"/>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <category term="图床" scheme="http://fanhaibo.com/tags/%E5%9B%BE%E5%BA%8A/"/>
     
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
-    <category term="技术" scheme="http://fanhaibo.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="jQuery" scheme="http://fanhaibo.com/tags/jQuery/"/>
-    
-    <category term="表格" scheme="http://fanhaibo.com/tags/%E8%A1%A8%E6%A0%BC/"/>
-    
-    <category term="表单验证" scheme="http://fanhaibo.com/tags/%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/"/>
+    <category term="博客" scheme="http://fanhaibo.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
